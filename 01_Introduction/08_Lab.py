@@ -77,34 +77,53 @@ total = 0
 #         print("xxx")
 
 from uuid import uuid4
+from pprint import pprint
 students = {}
-
-print(students)
-print(f'Manuel Guide\n==========\nCreate\nList\nUpdate\nDelete\nExit')
 while True:
-    process = input("Type your process upon manuel guide: ").lower()
+    print('Manuel Guide\n'
+          '==============\n'
+          'Create\n'
+          'List\n'
+          'Update\n'
+          'Delete\n'
+          'Exit')
+
+    process = input('Type your process upon manuel guide: ').lower()
 
     match process:
         case 'create':
             student_id = str(uuid4())
-            first_name = input("First Name: ")
-            last_name = input("Last Name: ")
-            phone = input("Phone: ")
+            first_name = input('First Name: ')
+            last_name = input('Last Name: ')
+            phone = input('Phone: ')
             students[student_id] = {
                 'first_name': first_name,
                 'last_name': last_name,
                 'phone': phone
             }
-            pass
         case 'list':
-            pass
+            pprint(students)
         case 'update':
+            student_id = input('Id :')
+            first_name = input('First Name :')
+            last_name = input('Last Name :')
+            phone = input('Phone :')
+
+            students.update({
+                student_id: {
+                    'first name': first_name,
+                    'last name': last_name,
+                    'phone': phone
+                }
+            })
             pass
         case 'delete':
+            student_id = input('Id : ')
+            del students[student_id]
+            print(f'{student_id} has been removed..!')
             pass
         case 'exit':
             print('Application has been closing..!')
             break
         case _:
             print('Please type valid process name..!')
-
