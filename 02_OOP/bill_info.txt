@@ -1,0 +1,7 @@
+Bill Name: BEDAŞ
+Total Amount: 106623.288
+Create Date: 2024-03-30 17:27:52.098055Bill Name: Iski
+Total Amount: 253977.75000000003
+Create Date: 2024-03-30 17:27:52.098055Bill Name: IGDAŞ
+Total Amount: 315114.24000000005
+Create Date: 2024-03-30 17:27:52.098965
