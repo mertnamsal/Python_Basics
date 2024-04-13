@@ -7,7 +7,7 @@ db = conn['CRUD_db']
 
 collection = db['categories']
 
-# region Seed Data
+# region Seed data
 # Proje ilk çalıştırıldığında veri tabanı yaratırılırken burada ki oluşturulan koleksiyon ile yani data ile yaratılmasına diyoruz.
 # Bize sağladığı avantaj örneğin hemen read operasyonlarını hızlıca yazabiliriz. bir tane user yaratılmışsa login olunup belirli testler yapılabilir vs
 

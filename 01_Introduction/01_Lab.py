@@ -7,7 +7,7 @@
 # print(f'Sonuc: {toplam}')
 # print(f'{x}+{y} = {toplam}')
 # print('Sonuc: {}'.format(toplam))
-# print('{}+{} ={}'.format(x,y,toplam));
+# print('{}+{} ={}'.format(x,y,toplam))
 
 #Dikdörtgenin alanı ve çevresi
 

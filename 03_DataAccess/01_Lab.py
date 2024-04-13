@@ -35,7 +35,7 @@ collection = db['products']
 # collection.insert_many(product_list)
 # endregion
 
-# region Read All Data
+# region Read All data
 # for x in collection.find():
 #     print(x)
 # endregion
